@@ -1,0 +1,13 @@
+# Footage, licensed music and renders stay local (large + licence-bound)
+media/raw/*
+media/music/*
+media/sfx/*
+media/work/*
+output/*
+!**/.gitkeep
+motion/renders/
+.env
+node_modules/
+__pycache__/
+.DS_Store
+motion/.hyperframes/

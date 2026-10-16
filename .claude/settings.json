@@ -1,0 +1,22 @@
+{
+  "enabledMcpjsonServers": ["tella", "epidemic-sound"],
+  "extraKnownMarketplaces": {
+    "hyperframes": {
+      "source": { "source": "github", "repo": "heygen-com/hyperframes" }
+    }
+  },
+  "enabledPlugins": {
+    "hyperframes@hyperframes": true
+  },
+  "permissions": {
+    "allow": [
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)",
+      "Bash(python3 scripts/vedit.py:*)",
+      "Bash(npx --yes hyperframes@0.8.163:*)",
+      "Bash(npx hyperframes:*)",
+      "mcp__tella",
+      "mcp__epidemic-sound"
+    ]
+  }
+}

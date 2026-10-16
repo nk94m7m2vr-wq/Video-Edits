@@ -1,0 +1,16 @@
+{
+  "name": "my-first-edit",
+  "source": "media/raw/tella-export.mp4",
+  "trim_start": null,
+  "trim_end": null,
+  "format": { "width": 1920, "height": 1080, "fps": 30 },
+  "silence_cut": { "enabled": true, "threshold": "-35dB", "min": 0.6, "pad": 0.15 },
+  "captions": null,
+  "intro": "media/work/intro.mp4",
+  "outro": "media/work/outro.mp4",
+  "music": { "file": "media/music/track.mp3", "db": -18, "duck": true, "fade": 2.0 },
+  "sfx": [],
+  "lufs": -14,
+  "thumbnail_at": 6,
+  "output": "output/my-first-edit.mp4"
+}

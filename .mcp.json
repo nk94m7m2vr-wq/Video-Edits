@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "tella": {
+      "type": "http",
+      "url": "https://api.tella.com/mcp"
+    },
+    "epidemic-sound": {
+      "type": "http",
+      "url": "https://www.epidemicsound.com/a/mcp-service/mcp",
+      "headers": {
+        "Authorization": "Bearer ${EPIDEMIC_SOUND_API_KEY:-}"
+      }
+    }
+  }
+}
